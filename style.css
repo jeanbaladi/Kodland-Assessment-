@@ -12,6 +12,10 @@ body {
 .card img {
     width: 300px;
     height: 205px;
+    transition-duration: 500ms;
+}
+.card img:hover {
+    transform: scale(1.1 );
 }
 .card h2 {
     font-size: 20px;
@@ -36,13 +40,23 @@ body {
     margin-right: 25px;
     border-radius: 15%;
     color: var(--fifty-color);
+    transition-duration: 500ms;
 }
-
+.card .action a:hover {
+    filter: brightness(1.15);
+}
 .card {
     font-family: Roboto;
     width: 300px;
     background-color: var(--fifty-color);
     border: 1px solid var(--fourth-color);
+    box-shadow: var(--primary-color) -3px 3px 20px 0px;
+    width: 300px;
+    overflow: hidden;
+    transition-duration: 500ms;
+}
+.card:hover {
+    box-shadow: var(--primary-color) -6px 6px 20px 0px;
 }
 .card .description {
     padding: 30px 75px 30px 25px;
