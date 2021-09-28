@@ -1,0 +1,58 @@
+:root {
+    --fourth-color : #e2e2e2;
+    --primary-color : #333333;
+    --third-color : #666666;
+    --secundary-color : #4ed17b;
+    --fifty-color : #ffffff;
+}
+
+.card img {
+    width: 300px;
+    height: 205px;
+}
+.card h2 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 30px 25px 0;
+}
+.card .action {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.card .action .price {
+    color: var(--primary-color);
+    margin-left: 25px;
+    font-size: 35px;
+}
+.card .action a {
+    font-size: 15px;
+    height: 40px;
+    width: 50px;
+    background-color: var(--secundary-color);
+    margin-right: 25px;
+    border-radius: 15%;
+    color: var(--fifty-color);
+}
+
+.card {
+    margin-left: 25px;
+    font-family: Roboto;
+    width: 300px;
+    background-color: var(--fifty-color);
+    border: 1px solid var(--fourth-color);
+}
+.card .description {
+    margin: 30px 75px 30px 25px;
+    font-size: 15px;
+    color: var(--third-color)
+}
+.card .action svg {
+    width: 35px;
+    margin: 10% 15% 0;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
